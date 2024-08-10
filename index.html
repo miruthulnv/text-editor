@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Text - Editor</title>
+</head>
+<body>
+
+<div class="toolBar">
+    <label for="fontSize">Heading: </label>
+    <select name="fonts" id="fontSize">
+        <option value="6">H1</option>
+        <option value="5">H2</option>
+        <option value="4">H3</option>
+        <option value="3">H4</option>
+        <option value="2">H5</option>
+        <option value="1">H6</option>
+    </select>
+    <button id="boldButton"><b>B</b></button>
+    <button id="italicButton"><i>I</i></button>
+    <button id="underlineButton"><u>U</u></button>
+    <button id="strikeOutButton"><s>S</s></button>
+    <button id="highlightButton"><mark>H</mark></button>
+</div>
+
+<div class="main" contenteditable="true">
+</div>
+
+<!--<div class="other-tools">-->
+<!--    <button id="copyButton">Copy</button>-->
+<!--    <button id="cutButton">Cut</button>-->
+<!--    <button id="deleteButton">Delete</button>-->
+<!--</div>-->
+
+</body>
+<!--<script src="old.js"></script>-->
+<script src="script.js"></script>
+</html>
